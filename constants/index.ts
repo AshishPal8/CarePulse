@@ -42,40 +42,44 @@ export const IdentificationTypes = [
 
 export const Doctors = [
   {
-    image: "/assets/images/dr-green.png",
-    name: "John Green",
+    image: "/assets/images/ramesh.png",
+    name: "Dr. Ramesh Sharma - Cardiologist",
   },
   {
-    image: "/assets/images/dr-cameron.png",
-    name: "Leila Cameron",
+    image: "/assets/images/priya.png",
+    name: "Dr. Priya Mehta - Dermatologist",
   },
   {
-    image: "/assets/images/dr-livingston.png",
-    name: "David Livingston",
+    image: "/assets/images/arvind.png",
+    name: "Dr. Arvind Gupta - Neurologist",
   },
   {
-    image: "/assets/images/dr-peter.png",
-    name: "Evan Peter",
+    image: "/assets/images/neha.png",
+    name: "Dr. Neha Singh - Pediatrician",
   },
   {
-    image: "/assets/images/dr-powell.png",
-    name: "Jane Powell",
+    image: "/assets/images/kiran.png",
+    name: "Dr. Kiran Verma - Orthopedic Surgeon",
   },
   {
-    image: "/assets/images/dr-remirez.png",
-    name: "Alex Ramirez",
+    image: "/assets/images/sanjay.png",
+    name: "Dr. Sanjay Kapoor - Oncologist",
   },
   {
-    image: "/assets/images/dr-lee.png",
-    name: "Jasmine Lee",
+    image: "/assets/images/anjali.png",
+    name: "Dr. Anjali Deshmukh - Gynecologist",
   },
   {
-    image: "/assets/images/dr-cruz.png",
-    name: "Alyana Cruz",
+    image: "/assets/images/ravi.png",
+    name: "Dr. Ravi Patel - General Physician",
   },
   {
-    image: "/assets/images/dr-sharma.png",
-    name: "Hardik Sharma",
+    image: "/assets/images/vikram.png",
+    name: "Dr. Vikram Sethi - ENT Specialist",
+  },
+  {
+    image: "/assets/images/aditi.png",
+    name: "Dr. Aditi Choudhary - Ophthalmologist",
   },
 ];
 

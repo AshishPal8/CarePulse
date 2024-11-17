@@ -22,6 +22,11 @@ export const columns: ColumnDef<Appointment>[] = [
     header: "Patient",
     cell: ({ row }) => {
       const appointment = row.original;
+
+      if (!appointment?.patient) {
+        return <p className="text-14-medium text-gray-400">Loading...</p>;
+      }
+
       return <p className="text-14-medium ">{appointment.patient.name}</p>;
     },
   },
@@ -78,6 +83,10 @@ export const columns: ColumnDef<Appointment>[] = [
     header: () => <div className="pl-4">Actions</div>,
     cell: ({ row }) => {
       const appointment = row.original;
+
+      if (!appointment?.patient) {
+        return null;
+      }
 
       return (
         <div className="flex gap-1">
