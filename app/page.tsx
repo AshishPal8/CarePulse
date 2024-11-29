@@ -31,6 +31,9 @@ const Home = ({ searchParams }: SearchParamProps) => {
               <Link href="/support" className="text-green-500">
                 Contact Us
               </Link>
+              <Link href="/payment" className="text-green-500">
+                Payment
+              </Link>
             </div>
             <Link href="/?admin=true" className="text-green-500">
               Admin
